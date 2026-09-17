@@ -1,0 +1,274 @@
+{
+  "accounts": [
+    { "email": "aarati.joshi@example.com", "password": "physio123" }
+  ],
+  "therapist": {
+    "name": "Dr. Aarati Joshi",
+    "email": "aarati.joshi@example.com",
+    "phone": "9841234567",
+    "experienceYears": 7,
+    "specialization": "Orthopaedic & Sports Rehabilitation",
+    "address": "Jhamsikhel, Lalitpur",
+    "isAvailable": true
+  },
+  "patients": [
+    {
+      "id": "p1",
+      "name": "Sita Sharma",
+      "age": 42,
+      "gender": "Female",
+      "phone": "9841000001",
+      "address": "Baneshwor, Kathmandu",
+      "condition": "Lower Back Pain",
+      "treatmentPlan": "Core stabilisation, McKenzie extension exercises, posture correction"
+    },
+    {
+      "id": "p2",
+      "name": "Ram Thapa",
+      "age": 55,
+      "gender": "Male",
+      "phone": "9841000002",
+      "address": "Kupondole, Lalitpur",
+      "condition": "Knee Rehabilitation (post TKR)",
+      "treatmentPlan": "Knee flexion, quadriceps strengthening, gait training"
+    },
+    {
+      "id": "p3",
+      "name": "Anjali Thapa",
+      "age": 29,
+      "gender": "Female",
+      "phone": "9841000003",
+      "address": "Lazimpat, Kathmandu",
+      "condition": "Ankle Sprain (Grade II)",
+      "treatmentPlan": "Balance and proprioception training, ankle strengthening"
+    },
+    {
+      "id": "p4",
+      "name": "Hari Prasad Koirala",
+      "age": 71,
+      "gender": "Male",
+      "phone": "9841000004",
+      "address": "Budhanilkantha, Kathmandu",
+      "condition": "Stroke Rehabilitation",
+      "treatmentPlan": "Gait training, upper limb functional exercises"
+    },
+    {
+      "id": "p5",
+      "name": "Maya Gurung",
+      "age": 35,
+      "gender": "Female",
+      "phone": "9841000005",
+      "address": "Maharajgunj, Kathmandu",
+      "condition": "Frozen Shoulder",
+      "treatmentPlan": "Joint mobilisation, stretching, therapeutic ultrasound"
+    },
+    {
+      "id": "p6",
+      "name": "Bikash Shrestha",
+      "age": 24,
+      "gender": "Male",
+      "phone": "9841000006",
+      "address": "Sanepa, Lalitpur",
+      "condition": "ACL Reconstruction",
+      "treatmentPlan": "Closed-chain strengthening, neuromuscular control"
+    },
+    {
+      "id": "p7",
+      "name": "Nisha Rai",
+      "age": 47,
+      "gender": "Female",
+      "phone": "9841000007",
+      "address": "Chabahil, Kathmandu",
+      "condition": "Cervical Spondylosis",
+      "treatmentPlan": "Neck isometrics, manual therapy, ergonomic advice"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "s1",
+      "patientId": "p7",
+      "dayOffset": 0,
+      "time": "08:00",
+      "durationMinutes": 45,
+      "treatment": "Cervical Spondylosis",
+      "visitType": "clinic",
+      "location": "PhysioGhar Clinic, Jhamsikhel",
+      "status": "completed",
+      "remarks": "Neck pain reduced from 6/10 to 3/10. Continue isometrics."
+    },
+    {
+      "id": "s2",
+      "patientId": "p1",
+      "dayOffset": 0,
+      "time": "10:00",
+      "durationMinutes": 45,
+      "treatment": "Back Pain",
+      "visitType": "home",
+      "location": "Baneshwor, Kathmandu",
+      "status": "upcoming"
+    },
+    {
+      "id": "s3",
+      "patientId": "p2",
+      "dayOffset": 0,
+      "time": "14:00",
+      "durationMinutes": 60,
+      "treatment": "Knee Rehabilitation",
+      "visitType": "clinic",
+      "location": "PhysioGhar Clinic, Jhamsikhel",
+      "status": "upcoming"
+    },
+    {
+      "id": "s4",
+      "patientId": "p4",
+      "dayOffset": 0,
+      "time": "16:00",
+      "durationMinutes": 60,
+      "treatment": "Stroke Rehabilitation",
+      "visitType": "home",
+      "location": "Budhanilkantha, Kathmandu",
+      "status": "upcoming"
+    },
+    {
+      "id": "s5",
+      "patientId": "p5",
+      "dayOffset": 1,
+      "time": "09:00",
+      "durationMinutes": 45,
+      "treatment": "Frozen Shoulder",
+      "visitType": "clinic",
+      "location": "PhysioGhar Clinic, Jhamsikhel",
+      "status": "upcoming"
+    },
+    {
+      "id": "s6",
+      "patientId": "p1",
+      "dayOffset": 2,
+      "time": "11:00",
+      "durationMinutes": 45,
+      "treatment": "Back Pain",
+      "visitType": "home",
+      "location": "Baneshwor, Kathmandu",
+      "status": "upcoming"
+    },
+    {
+      "id": "s7",
+      "patientId": "p2",
+      "dayOffset": 3,
+      "time": "14:00",
+      "durationMinutes": 60,
+      "treatment": "Knee Rehabilitation",
+      "visitType": "clinic",
+      "location": "PhysioGhar Clinic, Jhamsikhel",
+      "status": "upcoming"
+    },
+    {
+      "id": "s8",
+      "patientId": "p3",
+      "dayOffset": 1,
+      "time": "13:00",
+      "durationMinutes": 30,
+      "treatment": "Ankle Sprain",
+      "visitType": "home",
+      "location": "Lazimpat, Kathmandu",
+      "status": "request"
+    },
+    {
+      "id": "s9",
+      "patientId": "p6",
+      "dayOffset": 2,
+      "time": "15:00",
+      "durationMinutes": 60,
+      "treatment": "ACL Reconstruction",
+      "visitType": "home",
+      "location": "Sanepa, Lalitpur",
+      "status": "request"
+    },
+    {
+      "id": "s10",
+      "patientId": "p5",
+      "dayOffset": 4,
+      "time": "10:00",
+      "durationMinutes": 45,
+      "treatment": "Frozen Shoulder",
+      "visitType": "clinic",
+      "location": "PhysioGhar Clinic, Jhamsikhel",
+      "status": "request"
+    },
+    {
+      "id": "s11",
+      "patientId": "p1",
+      "dayOffset": -5,
+      "time": "10:00",
+      "durationMinutes": 45,
+      "treatment": "Back Pain",
+      "visitType": "home",
+      "location": "Baneshwor, Kathmandu",
+      "status": "completed",
+      "remarks": "Patient reported reduced pain compared to previous session. Continue core exercises."
+    },
+    {
+      "id": "s12",
+      "patientId": "p2",
+      "dayOffset": -3,
+      "time": "14:00",
+      "durationMinutes": 60,
+      "treatment": "Knee Rehabilitation",
+      "visitType": "clinic",
+      "location": "PhysioGhar Clinic, Jhamsikhel",
+      "status": "completed",
+      "remarks": "Flexion improved to 100°. Continue strengthening exercises."
+    },
+    {
+      "id": "s13",
+      "patientId": "p3",
+      "dayOffset": -2,
+      "time": "12:00",
+      "durationMinutes": 30,
+      "treatment": "Ankle Sprain",
+      "visitType": "home",
+      "location": "Lazimpat, Kathmandu",
+      "status": "cancelled"
+    }
+  ],
+  "notes": [
+    {
+      "id": "n1",
+      "patientId": "p2",
+      "dayOffset": -3,
+      "time": "15:10",
+      "title": "Session Note",
+      "body": "Patient reported reduced pain compared to previous session.\n\nExercise:\n- Knee flexion\n- Stretching\n- Strengthening\n\nNext Session:\nContinue strengthening exercises."
+    },
+    {
+      "id": "n2",
+      "patientId": "p1",
+      "dayOffset": -12,
+      "time": "11:00",
+      "title": "Initial assessment",
+      "body": "Lower back pain for 3 months, worse after long hours sitting at a desk. No radiating pain.\n\nPlan:\n- Core stabilisation\n- McKenzie extension exercises\n- Posture advice for work setup"
+    }
+  ],
+  "complaints": [
+    {
+      "id": "c1",
+      "reference": "PG-C-0001",
+      "category": "booking",
+      "dayOffset": -6,
+      "time": "18:20",
+      "subject": "Patient booked outside my service area",
+      "description": "A home visit request came from Bhaktapur, which is outside the areas I cover. I declined it, but the app should not allow bookings outside a therapist's service area."
+    }
+  ],
+  "schedule": {
+    "slotTimes": ["09:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00"],
+    "dayOff": "saturday",
+    "blocked": [
+      { "dayOffset": 0, "time": "12:00" },
+      { "dayOffset": 0, "time": "13:00" },
+      { "dayOffset": 1, "time": "12:00" },
+      { "dayOffset": 2, "time": "16:00" },
+      { "dayOffset": 2, "time": "17:00" }
+    ]
+  }
+}

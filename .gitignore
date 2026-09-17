@@ -43,3 +43,8 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Project docs (local only)
+/PRD.md
+flutter-developer-task.pdf
+/docs/
